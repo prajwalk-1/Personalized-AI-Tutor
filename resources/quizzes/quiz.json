@@ -1,0 +1,9 @@
+{
+    "Math": [
+      {"question": "What is 2+2?", "options": ["3", "4", "5"], "answer": "4"}
+    ],
+    "Science": [
+      {"question": "What is the chemical symbol for water?", "options": ["O2", "H2O", "CO2"], "answer": "H2O"}
+    ]
+  }
+  
