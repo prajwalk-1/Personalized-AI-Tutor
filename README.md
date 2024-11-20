@@ -26,7 +26,7 @@ This project combines multiple AI technologies like natural language processing 
 - **python-dotenv**: To securely handle API keys and configuration.
 
 ## Folder Structure
-
+```
 ai_tutor/
 │
 ├── main.py                # Entry point of the application
@@ -41,10 +41,8 @@ ai_tutor/
 │   ├── qa_engine.py       # Question-Answering Engine
 │   ├── video_handler.py   # Video tutorial integration
 │   ├── quiz_handler.py    # Quiz management
-│   └── utils.py           # Utility functions
-├── templates/
-│   └── dashboard.html     # HTML template for the interface (if using Flask or similar)
 └── README.md              # Project documentation
+```
 
 ## Installation
 
@@ -129,7 +127,7 @@ OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 ## Requirements
 
 ### Python Libraries:
-- `streamlit` or `Flask` for web app
+- `streamlit` for web app
 - `openai` for interacting with OpenAI's API
 - `langchain` for managing document retrieval and processing
 - `python-dotenv` for environment variable management
